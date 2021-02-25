@@ -9,7 +9,7 @@ email: "contact@jrsvs.nl"
 github: "https://github.com/j0r15"
 
 # Site config
-baseurl: ""
+baseurl: "/"
 highlighter: "rouge"
 sass:
   sass_dir: assets/scss
