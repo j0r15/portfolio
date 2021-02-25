@@ -7,9 +7,18 @@
 		<section class="follow">
 			<h2>Follow</h2>
 			<ul>
+        {% if site.linkedin %}
 				<li><a title="LinkedIn" href="{{ site.linkedin }}" target="_blank">LinkedIn</a></li>
+        {% endif %}
+        {% if site.twitter %}
 				<li><a title="Twitter" href="{{ site.twitter }}" target="_blank">Twitter</a></li>
+        {% endif %}
+        {% if site.github %}
 				<li><a title="Github" href="{{ site.github }}" target="_blank">Github</a></li>
+        {% endif %}
+        {% if site.instagram %}
+        <li><a title="Instagram" href="{{ site.instagram }}" target="_blank">Instagram</a></li>
+        {% endif %}
 			</ul>
 		</section>
 	</div>
